@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="microservice-api-gateway/src/main/java"/>
+	<classpathentry kind="src" path="microservice-api-gateway/src/test/java"/>
+	<classpathentry kind="src" path="microservice-service-consumer/src/main/java"/>
+	<classpathentry kind="src" path="microservice-service-consumer/src/test/java"/>
+	<classpathentry kind="lib" path="microservice-api-gateway/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="microservice-service-consumer/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="microservice-api-gateway/target/classes"/>
+</classpath>
