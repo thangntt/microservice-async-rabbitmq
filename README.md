@@ -56,8 +56,9 @@ This is an experimental Microservice use Spring, RabbitMQ Resquest-Response patt
     $ cd microservice-api-gateway
     $ mvn spring-boot:run
   
-    # Open new terminal and run microservice-service-consumer    
-    $ cd microservice-service-consumer
+    # Open new terminal and run microservice-service-consumer  
+    # Create more consumer with more termial
+    $ cd microservice-service-consumer
     $ mvn spring-boot:run  
   ```
 
