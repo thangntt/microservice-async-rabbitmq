@@ -57,8 +57,8 @@ This is an experimental Microservice use Spring, RabbitMQ Resquest-Response patt
     $ mvn spring-boot:run
   
     # Open new terminal and run microservice-service-consumer  
-    # Create more consumer with more termial
-    $ cd microservice-service-consumer
+   # Create more consumer with more termial
+   $ cd microservice-service-consumer
     $ mvn spring-boot:run  
   ```
 
