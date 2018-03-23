@@ -1,6 +1,13 @@
 # Microservice Async RabbitMQ
 
-This is an experimental Microservice use Spring, RabbitMQ Resquest-Response pattern
+This is an experimental Microservice use Spring, RabbitMQ Resquest-Response pattern.
+
+Sample to show how RabbitMQ can used for the communication between microservices.
+
+It use two microservices:
+* API-Gateway Service. This services receive the message request from the client and send the message to RabbitMQ. These services listen RabbitMQ to get the message and return a response to the client.
+  
+* Consumer Service. This services the message from RabbitMQ and process message and then send the message to RabbitMQ.
 
 ![topo](img/microservice.PNG)
 ### Requirements:
