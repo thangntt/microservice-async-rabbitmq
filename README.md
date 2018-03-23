@@ -48,15 +48,15 @@ This is an experimental Microservice use Spring, RabbitMQ Resquest-Response patt
   ```
 3. Run application
   ```Shell
-    # Open new termial and run microservice-api-gateway
+    # Open new terminal and run microservice-api-gateway
     $ cd microservice-object-message
    $ mvn clean install
    
-    # Open new termial and run microservice-api-gateway    
+    # Open new terminal and run microservice-api-gateway    
     $ cd microservice-api-gateway
     $ mvn spring-boot:run
   
-    # Open new termial and run microservice-service-consumer    
+    # Open new terminal and run microservice-service-consumer    
     $ cd microservice-service-consumer
     $ mvn spring-boot:run  
   ```
