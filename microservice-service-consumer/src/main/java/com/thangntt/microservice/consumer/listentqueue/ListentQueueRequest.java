@@ -12,7 +12,7 @@ import com.thangntt.microservice.object.message.DataQueueResponse;
 public class ListentQueueRequest {
 
 	
-	@RabbitListener(queues = "gw.request")
+	@RabbitListener(queues = "${jsa.rabbitmq.request.queue}")
 	public DataQueueResponse process(DataQueueRequest request) {
 		System.out.println("Received: id: " + request.getId() + " - data: " + request.getData());
 		return new DataQueueResponse(request.getId(), request.getData() + " response");
