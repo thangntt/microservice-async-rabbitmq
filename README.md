@@ -98,5 +98,5 @@ It use two microservices:
     $ cd microservice-service-consumer
     $ mvn eclipse:eclipse
   ```
-2. Import protject into eclipse 
+2. Import project into eclipse 
     In Eclipse choice File -> Import -> Existing Projects into Workspace
